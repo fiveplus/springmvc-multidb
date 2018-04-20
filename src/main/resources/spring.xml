@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <!-- 使用spring自带的占位符替换功能  -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <!-- 允许JVM参数覆盖  -->
+        <property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+        <!-- 忽略没有找到的资源文件  -->
+        <property name="ignoreResourceNotFound" value="true" />
+        <!-- 配置资源文件  -->
+        <property name="locations">
+            <list>
+                <value>classpath:application.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="db1" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db1.url}" />
+        <property name="username" value="${db1.username}" />
+        <property name="password" value="${db1.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="db2" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db2.url}" />
+        <property name="username" value="${db2.username}" />
+        <property name="password" value="${db2.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="db3" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db3.url}" />
+        <property name="username" value="${db3.username}" />
+        <property name="password" value="${db3.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="db4" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db4.url}" />
+        <property name="username" value="${db4.username}" />
+        <property name="password" value="${db4.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="db5" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db5.url}" />
+        <property name="username" value="${db5.username}" />
+        <property name="password" value="${db5.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="db6" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db6.url}" />
+        <property name="username" value="${db6.username}" />
+        <property name="password" value="${db6.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="db7" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db7.url}" />
+        <property name="username" value="${db7.username}" />
+        <property name="password" value="${db7.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="db8" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db8.url}" />
+        <property name="username" value="${db8.username}" />
+        <property name="password" value="${db8.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="db9" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db9.url}" />
+        <property name="username" value="${db9.username}" />
+        <property name="password" value="${db9.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="db10" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db10.url}" />
+        <property name="username" value="${db10.username}" />
+        <property name="password" value="${db10.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="db11" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${db11.url}" />
+        <property name="username" value="${db11.username}" />
+        <property name="password" value="${db11.password}" />
+        <property name="maxActive" value="${jdbc.maxActive}" />
+        <property name="maxIdle" value="${jdbc.maxIdle}" />
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <property name="defaultAutoCommit" value="${jdbc.defaultAutoCommit}" />
+    </bean>
+
+    <bean id="dataSource" class="com.fiveplus.utils.DynamicDataSource">
+        <property name="targetDataSources">
+            <map>
+                <entry key="db1" value-ref="db1" />
+                <entry key="db2" value-ref="db2" />
+                <entry key="db3" value-ref="db3" />
+                <entry key="db4" value-ref="db4" />
+                <entry key="db5" value-ref="db5" />
+                <entry key="db6" value-ref="db6" />
+                <entry key="db7" value-ref="db7" />
+                <entry key="db8" value-ref="db8" />
+                <entry key="db9" value-ref="db9" />
+                <entry key="db10" value-ref="db10" />
+                <entry key="db11" value-ref="db11" />
+            </map>
+        </property>
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="configLocation" value="classpath:mybatis.xml" />
+        <property name="dataSource" ref="dataSource" />
+        <property name="mapperLocations" value="classpath:com/fiveplus/mapper/*.xml" />
+        <!-- 配置别名包扫描  -->
+        <property name="typeAliasesPackage" value="com.fiveplus.entity" />
+        <property name="configurationProperties">
+            <props>
+                <!-- 这个配置使全局的映射器启用或禁用 缓存 -->
+                <prop key="cacheEnabled">true</prop>
+                <!-- 全局启用或禁用延迟加载。当禁用时, 所有关联对象都会即时加载 -->
+                <prop key="lazyLoadingEnabled">false</prop>
+                <prop key="aggressiveLazyLoading">true</prop>
+
+                <!-- 允许或不允许多种结果集从一个单独 的语句中返回(需要适合的驱动) -->
+                <prop key="multipleResultSetsEnabled">true</prop>
+                <!-- 使用列标签代替列名。 不同的驱动在这 方便表现不同。 参考驱动文档或充分测 试两种方法来决定所使用的驱动 -->
+                <prop key="useColumnLabel">true</prop>
+                <prop key="defaultExecutorType" >SIMPLE</prop>
+                <!-- 设置超时时间, 它决定驱动等待一个数 据库响应的时间 -->
+                <prop key="defaultStatementTimeout" >100</prop>
+                <prop key="safeRowBoundsEnabled" >false</prop>
+                <prop key="mapUnderscoreToCamelCase" >false</prop>
+                <prop key="localCacheScope" >SESSION</prop>
+                <prop key="jdbcTypeForNull" >OTHER</prop>
+                <prop key="lazyLoadTriggerMethods" >equals,clone,hashCode,toString</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.fiveplus.dao" />
+    </bean>
+
+</beans>

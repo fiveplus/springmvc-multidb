@@ -1,0 +1,28 @@
+[INFO] [2018-04-19 23:19:00][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Thu Apr 19 23:19:00 CST 2018]; root of context hierarchy
+[INFO] [2018-04-19 23:19:00][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-19 23:21:45][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Thu Apr 19 23:21:45 CST 2018]; root of context hierarchy
+[INFO] [2018-04-19 23:21:45][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-19 23:22:14][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO] [2018-04-19 23:22:14][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[INFO] [2018-04-19 23:24:40][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Thu Apr 19 23:24:40 CST 2018]; root of context hierarchy
+[INFO] [2018-04-19 23:24:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-19 23:44:07][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Thu Apr 19 23:44:07 CST 2018]; root of context hierarchy
+[INFO] [2018-04-19 23:44:07][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-19 23:44:52][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Thu Apr 19 23:44:52 CST 2018]; root of context hierarchy
+[INFO] [2018-04-19 23:44:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-20 02:17:48][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Fri Apr 20 02:17:48 CST 2018]; root of context hierarchy
+[INFO] [2018-04-20 02:17:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-20 02:19:34][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Fri Apr 20 02:19:34 CST 2018]; root of context hierarchy
+[INFO] [2018-04-20 02:19:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-20 02:20:17][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Fri Apr 20 02:20:17 CST 2018]; root of context hierarchy
+[INFO] [2018-04-20 02:20:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-20 02:20:52][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Fri Apr 20 02:20:51 CST 2018]; root of context hierarchy
+[INFO] [2018-04-20 02:20:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-20 02:21:39][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Fri Apr 20 02:21:39 CST 2018]; root of context hierarchy
+[INFO] [2018-04-20 02:21:39][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-20 02:26:54][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Fri Apr 20 02:26:54 CST 2018]; root of context hierarchy
+[INFO] [2018-04-20 02:26:55][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-20 02:27:08][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Fri Apr 20 02:27:08 CST 2018]; root of context hierarchy
+[INFO] [2018-04-20 02:27:08][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO] [2018-04-20 08:57:38][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c53a9eb: startup date [Fri Apr 20 08:57:38 CST 2018]; root of context hierarchy
+[INFO] [2018-04-20 08:57:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
